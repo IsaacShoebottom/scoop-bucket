@@ -1,0 +1,52 @@
+{
+    "version": "3.9.3.5",
+    "description": "Link Shell Extension provides for the creation of system links through the Windows shell.",
+    "homepage": "https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://schinagl.priv.at/nt/hardlinkshellext/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
+            "hash": "ca3f26ebf49dc4ea8b5d8c0154acca0de59a8689e5907fe748ffaeaa357ff3a0"
+        },
+        "32bit": {
+            "url": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
+            "hash": "b7e7227e960f025be992c398dafacd03c416adf5210d3fc0ff1d5b5771afdc4b"
+        }
+    },
+    "pre_install": "",
+    "installer": {
+        "script": [
+            "Read-Host 'This install restarts Explorer, which stops any ongoing explorer processes (copying, moving, open windows), please press Enter to confirm'",
+            "Start-Process -Wait \"$dir\\$fname\" -ArgumentList '/S /D=$dir'"
+        ]
+    },
+    "post_install": [
+        "",
+        ""
+    ],
+    "uninstaller": {
+        "script": [
+            "Read-Host 'This uninstall restarts Explorer, which stops any ongoing explorer processes (copying, moving, open windows), please press Enter to confirm'",
+            "if ($architecture -eq '64bit') { Start-Process -Wait \"$dir\\uninst-HardLinkShellExt_X64.exe\" -ArgumentList '/S' }",
+            "if ($architecture -eq '32bit') { Start-Process -Wait \"$dir\\uninst-HardLinkShellExt_win32.exe\" -ArgumentList '/S' }"
+        ]
+    },
+    "bin": "",
+    "checkver": {
+        "url": "https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html",
+        "regex": "Last Updated.*Version\\s(?<version>3.9.3.5)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe"
+            },
+            "32bit": {
+                "url": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "##": "64 bit version, as the release channels can have different versions, we use the latest version from the stable channel",
+    "version": "1.0.9033",
+    "description": "Discord is a free voice, video, and text chat app for gamers",
+    "homepage": "https://discord.com/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64#/dl.7z",
+            "hash": "2da9381f85deaba9c17ef8dace2064e3403e3a1e01cff1441c80d82bb24ac5c6"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\Discord-$version-full.nupkg\" \"$dir\" -Removal",
+        "Move-Item -Path \"$dir\\lib\\net45\\*\" -Destination \"$dir\" -Force"
+    ],
+    "bin": "Discord.exe",
+    "shortcuts": [
+        [
+            "Discord.exe",
+            "Discord"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$dl_url = 'https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64'",
+            "$dl = cache_path 'discord' 'unknown' $dl_url",
+            "Invoke-WebRequest -Uri $dl_url -OutFile $dl",
+            "$ver = (Get-Content $dl).VersionInfo.ProductVersion",
+            "$ver"
+        ],
+        "regex": "(\\S+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64#/dl.7z"
+            }
+        }
+    }
+}
+
