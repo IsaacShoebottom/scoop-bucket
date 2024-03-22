@@ -1,12 +1,12 @@
 {
-    "version": "4.10.0",
+    "version": "4.10.1",
     "description": "Explore, discover, and have fun with your music using our beautiful, custom-built music player",
     "homepage": "https://www.plex.tv/plexamp/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp%20Setup%204.10.0.exe#/dl.7z",
-            "hash": "9f1772adf7e49c13f8b302207cc62002476da4cc4cf5cc6789506cf6b5aa376d"
+            "url": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp%20Setup%204.10.1.exe#/dl.7z",
+            "hash": "b6966d64c8705371682505a6a1edd8f9b7ac62234ae7c646a21f368e05f7b100"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
