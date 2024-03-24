@@ -20,7 +20,7 @@
     "installer": {
         "script": [
             "Read-Host 'This install restarts Explorer, which stops any ongoing explorer processes (copying, moving, open windows), please press Enter to confirm'",
-            "Start-Process -Wait \"$dir\\$fname\" -ArgumentList '/S /D=$dir'"
+            "Start-Process -Wait \"$dir\\$fname\" -ArgumentList '/S',  \"/D=$dir\""
         ]
     },
     "post_install": [
