@@ -1,0 +1,19 @@
+{
+    "version": "1.3.6",
+    "description": "Aseprite is a pixel art tool that lets you create 2D animations for videogames.",
+    "notes": "As per the EULA, do not install this software unless you are me, i.e Isaac Shoebottom",
+    "homepage": "https://www.aseprite.org/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://raw.githubusercontent.com/aseprite/aseprite/main/EULA.txt"
+    },
+    "url": "https://shoebottom.ca/host/files/Aseprite/aseprite_v1.3.6.7z",
+    "hash": "a644af3373576397aeb70b452a73afb771aaa741cedafb268e9e38bf0e18b6cc",
+    "bin": "aseprite.exe",
+    "shortcuts": [
+        [
+            "aseprite.exe",
+            "Aseprite"
+        ]
+    ]
+}
