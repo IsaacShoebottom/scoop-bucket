@@ -10,7 +10,7 @@
             "hash": "ac1b97fcfc4466d46ddc7e068d5656b0e17789c0bb548b152a44cb1486cea7f8"
         }
     },
-    "post_install": "(Get-Content $dir\\settings.ini).Replace('Data.rsdk', 'data\\Data.rsdk') | Set-Content $dir\\settings.ini",
+    "post_install": "(Get-Content $dir\\settings.ini).Replace('DataFile=Data.rsdk', 'DataFile=data\\Data.rsdk') | Set-Content $dir\\settings.ini",
     "shortcuts": [
         [
             "RSDKv3_64.exe",
