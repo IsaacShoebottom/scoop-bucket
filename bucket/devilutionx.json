@@ -31,6 +31,10 @@
         "save",
         "config"
     ],
+    "notes": [
+        "Put data files in data folder inside app directory",
+        "Saves are persisted in the saves folder"
+    ],
     "checkver": {
         "github": "https://github.com/diasurgical/devilutionX/"
     },
