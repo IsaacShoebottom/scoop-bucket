@@ -32,7 +32,7 @@
         "config"
     ],
     "notes": [
-        "Put data files in data folder inside app directory",
+        "Put .mpq files in data folder inside app directory",
         "Saves are persisted in the saves folder"
     ],
     "checkver": {
