@@ -10,7 +10,7 @@
             "hash": "sha512:0e56572ce6ec176279ff17b758022582bb4ecb6a2a3e94b96dbfa6eaf5bee40d842cc5b1b1532da9d6dc892dcf03f6f0efc823edf8b44d31b2726d4ad30cb0d0"
         }
     },
-    "pre_install":[
+    "pre_install": [
         "# Disable auto-update",
         "Remove-Item -ErrorAction Ignore -Recurse \"$env:LOCALAPPDATA\\plexamp-updater\" | Out-Null",
         "$updateFile = New-Item -ItemType File -Path \"$env:LOCALAPPDATA\\plexamp-updater\" -Name \"installer.exe\" -Value \"Disabled by Scoop\" -Force",
