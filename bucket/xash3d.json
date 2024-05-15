@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-win32-i386.7z",
-            "hash": "fdf7ead50be4edcab67036d8ae156121ee849a0cecda31a3562b25a82a3230a7"
+            "hash": "b292d575acdaa742ad6df7e0ae5126e137cfbda953cf52bf62c593118004150a"
         }
     },
     "persist": "valve",
