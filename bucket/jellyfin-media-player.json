@@ -1,0 +1,38 @@
+{
+    "version": "1.10.1",
+    "description": "Jellyfin Desktop Client based on Plex Media Player ",
+    "homepage": "https://github.com/jellyfin/jellyfin-media-player",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jellyfin/jellyfin-media-player/releases/tag/v1.10.1/JellyfinMediaPlayer-1.10.1-windows-x64.exe ",
+            "hash": "e03725736251a2840be96e7f77065755a701bcb0369ccae76d402d5831949319"
+        }
+    },
+    "installer": {
+        "script": [
+            "$extracted = \"$dir\\extracted\"",
+            "$msi = \"$dir\\msi\"",
+            "Expand-DarkArchive \"$dir\\$fname\" \"$extracted\"",
+            "Expand-MsiArchive \"$extracted\\AttachedContainer\\PMP.msi\" \"$msi\"",
+            "Move-Item \"$msi\\Msi\\*\" \"$dir\" -Force",
+            "Remove-Item $extracted, $msi, \"$dir\\$fname\" -Force -Recurse"
+        ]
+    },
+    "shortcuts": [
+        [
+            "JellyfinMediaPlayer.exe",
+            "Jellyfin Media Player"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/jellyfin/jellyfin-media-player"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jellyfin/jellyfin-media-player/releases/tag/v$version/JellyfinMediaPlayer-$version-windows-x64.exe "
+            }
+        }
+    }
+}
