@@ -5,8 +5,8 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jellyfin/jellyfin-media-player/releases/tag/v1.10.1/JellyfinMediaPlayer-1.10.1-windows-x64.exe ",
-            "hash": "e03725736251a2840be96e7f77065755a701bcb0369ccae76d402d5831949319"
+            "url": "https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.10.1/JellyfinMediaPlayer-1.10.1-windows-x64.exe",
+            "hash": "56613a23e532a1aa39ff0b259d13fbc8427aac797ff06700017eb464bff34d03"
         }
     },
     "installer": {
@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jellyfin/jellyfin-media-player/releases/tag/v$version/JellyfinMediaPlayer-$version-windows-x64.exe "
+                "url": "https://github.com/jellyfin/jellyfin-media-player/releases/download/v$version/JellyfinMediaPlayer-$version-windows-x64.exe"
             }
         }
     }
