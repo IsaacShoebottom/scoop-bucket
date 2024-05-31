@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/IsaacShoebottom/aseprite_builder/releases/download/v1.3.7/Aseprite-v1.3.7-Windows.zip",
-            "hash": "cfe61ccc80a1c4e383a83d2bfd3378998bd01fc0846ccaf50fb8a6a4c56c3e0f"
+            "hash": "cde7271458f325daa6086be7bd02c706e896d3b52d317eb8d46b4b0cf0214264"
         }
     },
     "bin": "aseprite.exe",
