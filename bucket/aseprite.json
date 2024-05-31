@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/IsaacShoebottom/aseprite_builder/releases/download/v1.3.7/Aseprite-v1.3.7-Windows.zip",
-            "hash": "cde7271458f325daa6086be7bd02c706e896d3b52d317eb8d46b4b0cf0214264"
+            "hash": "5984867a71864c20b39d9d305d028e15e4629439de8c0c32eb6ed37c299d7a1a"
         }
     },
     "bin": "aseprite.exe",
@@ -19,6 +19,13 @@
             "aseprite.exe",
             "Aseprite"
         ]
+    ],
+    "persist": [
+        "aseprite.ini",
+        "extensions",
+        "palettes",
+        "scripts",
+        "sessions"
     ],
     "checkver": {
         "github": "https://github.com/IsaacShoebottom/aseprite_builder"
