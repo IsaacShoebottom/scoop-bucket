@@ -9,6 +9,7 @@
             "hash": "b4eb09872393c571ce8fb4742b211e1a2609512e3ef59e85c39727d4aa6d6bb0"
         }
     },
+    "extract_dir": "Release",
     "shortcuts": [
         [
             "vmaf-gui.exe",
