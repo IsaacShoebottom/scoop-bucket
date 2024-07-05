@@ -9,7 +9,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://www.patreon.com/file?h=74910544&i=13368552",
+            "url": "https://www.patreon.com/file?h=74910544&i=13368552#/file.zip",
             "hash": "5d47f523f61a64eec49bbf0a2c267d89d83d0aab121a5ade8400643838ea7bff"
         }
     },
@@ -54,7 +54,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.patreon.com/$matchFile"
+                "url": "https://www.patreon.com/$matchFile#/file.zip"
             }
         }
     }
