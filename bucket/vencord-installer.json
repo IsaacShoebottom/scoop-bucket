@@ -15,6 +15,12 @@
             "Vencord Installer"
         ]
     ],
+    "pre_install": [
+        "New-Item -ItemType Directory -Force -Path $persist_dir\\..\\_vencord | Out-Null"
+    ],
+    "env_set": {
+        "VENCORD_USER_DATA_DIR": "$persist_dir\\..\\_vencord"
+    },
     "checkver": {
         "github": "https://github.com/Vencord/Installer"
     },
