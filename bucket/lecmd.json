@@ -10,7 +10,7 @@
             "hash": "545f6eb250fa44c1d0c8f0abe361e283c3f22194f32dbae8e913265cefb05677"
         }
     },
-    "bin": "mcrcon.exe",
+    "bin": "LECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
         "regex": "LECmd.*(\\d+\\.\\d+\\.\\d+\\.\\d+).*Parse lnk files"
