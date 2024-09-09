@@ -9,11 +9,15 @@
             "hash": "a4bef1473fc9b700125a64fb6ff0dafcbc2ff594162e0841ccf931ac20552071"
         }
     },
-    "pre_install": "Expand-DarkArchive \"$dir\\$fname\" \"$extracted\"",
+    "pre_install": [
+        "Expand-DarkArchive \"$dir\\$fname\" \"$extracted\"",
+        "Move-Item \"$extracted\\*\" \"$dir\"",
+        "Remove-Item $extracted, \"$dir\\$fname\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
-            "test.exe",
-            "test"
+            "Oscilloscope.exe",
+            "Oscilloscope"
         ]
     ],
     "checkver": {
