@@ -9,6 +9,10 @@
             "hash": "c2ff791eefaca1848e5b2fe0d003ad00e09096178837bd40f981a8f24759237b"
         }
     },
+    "pre_install": [
+        "Move-Item \"$dir\\Oscilloscope-1.0.8\\* \" \"$dir\" -Force -Recurse",
+        "Remove-Item \"$dir\\Oscilloscope-1.0.8\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
             "Oscilloscope.exe",
