@@ -11,7 +11,7 @@
     },
     "pre_install": [
         "Expand-DarkArchive \"$dir\\$fname\" \"$extracted\"",
-        "Move-Item \"$extracted\\*\" \"$dir\"",
+        "Move-Item \"$extracted\\Oscilloscope\\*\" \"$dir\"",
         "Remove-Item $extracted, \"$dir\\$fname\" -Force -Recurse"
     ],
     "shortcuts": [
