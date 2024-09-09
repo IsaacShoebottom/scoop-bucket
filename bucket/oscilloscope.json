@@ -10,8 +10,8 @@
         }
     },
     "post_install": [
-        "Move-Item \"Oscilloscope\\*\" \"$dir\"",
-        "Remove-Item \"Oscilloscope\" -Force -Recurse"
+        "Move-Item \"$dir\\Oscilloscope\\*\" \"$dir\"",
+        "Remove-Item \"$dir\\Oscilloscope\" -Force -Recurse"
     ],
     "shortcuts": [
         [
