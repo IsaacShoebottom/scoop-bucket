@@ -9,11 +9,9 @@
             "hash": "a4bef1473fc9b700125a64fb6ff0dafcbc2ff594162e0841ccf931ac20552071"
         }
     },
-    "pre_install": [
-        "$extracted = \"$dir\\extracted\"",
-        "Expand-DarkArchive \"$dir\\$fname\" \"$extracted\"",
-        "Move-Item \"$extracted\\*\" \"$dir\"",
-        "Remove-Item $extracted, \"$dir\\$fname\" -Force -Recurse"
+    "post_install": [
+        "Move-Item \"Oscilloscope\\*\" \"$dir\"",
+        "Remove-Item \"Oscilloscope\" -Force -Recurse"
     ],
     "shortcuts": [
         [
