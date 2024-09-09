@@ -1,17 +1,15 @@
 {
-    "version": "4.11.1",
+    "version": "1.1.0",
     "description": "Oscilloscope for Mac/Windows",
     "homepage": "https://oscilloscopemusic.com/software/oscilloscope/",
-    "license": "Proprietary",
+    "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp%20Setup%204.11.1.exe#/dl.7z",
-            "hash": "sha512:ff78fe2a4be0895abe682b81e7bb5c1e6759d33594aea66141a2bc085ddc1b3c16d551505bc4554de7f185209bf447c03120e8dc95fa1e68500ed7674b75593f"
+            "url": "https://github.com/kritzikratzi/Oscilloscope/releases/download/1.1.0/Oscilloscope-1.1.0-win64.msi",
+            "hash": "a4bef1473fc9b700125a64fb6ff0dafcbc2ff594162e0841ccf931ac20552071"
         }
     },
-    "pre_install": [
-        "Expand-DarkArchive \"$dir\\$fname\" \"$extracted\""
-    ],
+    "pre_install": "Expand-DarkArchive \"$dir\\$fname\" \"$extracted\"",
     "shortcuts": [
         [
             "test.exe",
@@ -24,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kritzikratzi/Oscilloscope/releases/download/1.1.0/Oscilloscope-1.1.0-win64.msi"
+                "url": "https://github.com/kritzikratzi/Oscilloscope/releases/download/$version/Oscilloscope-$version-win64.msi"
             }
         }
     }
