@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://f001.backblazeb2.com/file/EricZimmermanTools/net6/LECmd.zip"
+                "url": "https://download.mikestammer.com/net6/LECmd.zip"
             }
         }
     }
