@@ -9,7 +9,7 @@
             "hash": "a4bef1473fc9b700125a64fb6ff0dafcbc2ff594162e0841ccf931ac20552071"
         }
     },
-    "post_install": [
+    "pre_install": [
         "Move-Item \"$dir\\Oscilloscope\\*\" \"$dir\"",
         "Remove-Item \"$dir\\Oscilloscope\" -Force -Recurse"
     ],
