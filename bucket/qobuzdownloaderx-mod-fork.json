@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/IsaacShoebottom/QobuzDownloaderX-MOD/releases/download/$version/QobuzDownloaderX.zip"
+                "url": "https://github.com/IsaacShoebottom/QobuzDownloaderX-MOD/releases/download/$version/QobuzDownloaderX_v$version.zip"
             }
         }
     }
