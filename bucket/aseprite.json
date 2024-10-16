@@ -1,5 +1,5 @@
 {
-    "version": "1.3.7",
+    "version": "1.3.9.1",
     "description": "Aseprite is a pixel art tool that lets you create 2D animations for videogames.",
     "notes": "As per the EULA, do not install this software unless you are me, i.e Isaac Shoebottom",
     "homepage": "https://www.aseprite.org/",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/IsaacShoebottom/aseprite_builder/releases/download/v1.3.7/Aseprite-v1.3.7-Windows.zip",
-            "hash": "5984867a71864c20b39d9d305d028e15e4629439de8c0c32eb6ed37c299d7a1a"
+            "url": "https://github.com/IsaacShoebottom/aseprite_builder/releases/download/v1.3.9.1/Aseprite-v1.3.9.1-Windows.zip",
+            "hash": "5b5990aaca7367c4725008a6b44d0a7a668c527d907fb72744a3b02b6fe16e66"
         }
     },
     "bin": "aseprite.exe",
