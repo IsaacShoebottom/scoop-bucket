@@ -1,0 +1,22 @@
+{
+    "version": "2.0.2109",
+    "description": "Fetches and applies the image of the day from Bing as the wallpaper for Windows",
+    "homepage": "https://binghomepage.github.io/BingWallpaper.Windows/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BingHomepage/BingWallpaper.Windows/releases/download/v2.0.2109/Bing.Wallpaper.v2.0.2109.zip",
+            "hash": "1db7fc964a9d5d33d28ef7f7ebbf6c78c0e50fec540e6fced86b932c16429597"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/BingHomepage/BingWallpaper.Windows"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BingHomepage/BingWallpaper.Windows/releases/download/v$version/Bing.Wallpaper.v$version.zip"
+            }
+        }
+    }
+}
