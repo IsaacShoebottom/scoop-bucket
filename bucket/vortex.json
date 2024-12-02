@@ -1,12 +1,12 @@
 {
-    "version": "1.12.6",
+    "version": "1.13.1",
     "description": "Open-source mod manager from Nexus Mods",
     "homepage": "https://www.nexusmods.com/about/vortex/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v1.12.6/vortex-setup-1.12.6.exe#/dl.7z",
-            "hash": "f979d93ad61a9484763dc63001cd64409f6f1ebde485f655c1ba74b7953f36e7",
+            "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v1.13.1/vortex-setup-1.13.1.exe#/dl.7z",
+            "hash": "42918832ddbfbc90c9afe3781e788b8b4dd6060a838670f31fa8553554e6d5be",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
