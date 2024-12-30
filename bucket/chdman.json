@@ -1,0 +1,38 @@
+{
+    "##": "From: https://github.com/instinctualjealousy/holes",
+    "version": "0.272",
+    "description": "MAME Compressed Hunks of Data (CHD) manager",
+    "homepage": "http://mamedev.org",
+    "license": {
+        "identifier": "GPL-2.0",
+        "url": "https://github.com/mamedev/mame/blob/master/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mamedev/mame/releases/download/mame0272/mame0272b_64bit.exe#/dl.7z",
+            "hash": "b3fa9ad14c2b54afd2888e44d466c36ab300e22ad249dade9cd26e7d74df5c13",
+            "pre_install": [
+                "Move-Item \"$dir\\src\\chdman.exe\" \"$dir\\chdman.exe\"",
+                "Remove-Item -Recurse \"$dir\\src\""
+            ],
+            "bin": [
+                [
+                    "chdman.exe",
+                    "chdman"
+                ]
+            ]
+        }
+    },
+    "extract_to": "src",
+    "checkver": {
+        "github": "https://github.com/mamedev/mame",
+        "regex": "MAME ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mamedev/mame/releases/download/mame$cleanVersion/mame$cleanVersionb_64bit.exe#/dl.7z"
+            }
+        }
+    }
+}
