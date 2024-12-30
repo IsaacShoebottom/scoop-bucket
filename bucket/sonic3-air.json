@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Eukaryot/sonic3air/releases/download/v24.02.02.0-stable/sonic3air_game.zip",
-            "hash": "38663512563e2780b9ff7dcb7d9b54722a8d4e5ea13324ff0899ae99ed8a0373"
+            "hash": "e9228ff18764870d88457115b692cbfbf0eef9d75d80587252c4900b383b5c74"
         }
     },
     "extract_dir": "sonic3air_game",
