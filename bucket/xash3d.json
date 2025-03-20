@@ -1,12 +1,12 @@
 {
-    "version": "eea804a",
+    "version": "9c49253",
     "description": "Xash3D is a custom Gold Source engine rewritten from scratch. Xash3D FWGS is a fork of Xash3D Engine, which compatible with Gold Source engine.",
     "homepage": "https://github.com/FWGS/xash3d-fwgs/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-win32-i386.7z",
-            "hash": "eed375636415ee3f56c293dc8b013c386333175737f7dad4e898be4c781be67e"
+            "hash": "626a06de1961e5c6df63875f1d775efdbe5d40dcaae7391670e21abb59eb0931"
         }
     },
     "persist": "valve",
