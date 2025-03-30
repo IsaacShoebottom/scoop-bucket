@@ -1,13 +1,13 @@
 {
     "##": "App creates its own shortcuts, App info found in this thread: https://forums.plex.tv/t/anyway-to-stop-auto-update-of-plexamp/861906/10",
-    "version": "4.11.5",
+    "version": "4.12.0",
     "description": "Explore, discover, and have fun with your music using our beautiful, custom-built music player",
     "homepage": "https://www.plex.tv/plexamp/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp%20Setup%204.11.5.exe#/dl.7z",
-            "hash": "sha512:13bb98536dfb824b4bfac381eeb83432f1330f01a1c04c211e23d4e8fc577070c62cfdde4729781240a0ee207af5e877511bc1a266bf14ff05e8aeb7fac5a9a5"
+            "url": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp%20Setup%204.12.0.exe#/dl.7z",
+            "hash": "sha512:965d8439f70d25acbefa9b7e52af99ba4c6269c422b41eecf1e9b10c1974dbe32b118a6cfe741c320e39e0620527b730b5a3587917d85a9c70157a318de6ce6a"
         }
     },
     "pre_install": [
