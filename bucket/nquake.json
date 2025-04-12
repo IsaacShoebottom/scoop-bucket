@@ -1,5 +1,5 @@
 {
-    "version": "ca48099b3ec302cb4c60e8ab19def1aee21dfe64",
+    "version": "6df7e99dca280dea9f6252c179e8b88483645fee",
     "description": "nQuake is an ezQuake distro pre-configured to be a complete QuakeWorld experience",
     "homepage": "https://nquake.com/",
     "license": "Shareware",
@@ -20,12 +20,12 @@
                 "https://github.com/nQuake/distfiles/releases/download/snapshot/addon-textures.zip"
             ],
             "hash": [
-                "6b19826c992cbe5b22252c38689723629d968a197153340de6dfaf5bc40061ef",
-                "a7a4ed24757cd64415b69228bef1e5bdffa5c5df394c8a39134c68ba2b6dc156",
-                "a5008e8f54a6ff0790f6d1eb5c1234f0ca409eb8d1ececa2eaf203cf305ef155",
-                "967853b6c2b3cc97b3ed90af18074a52c255de5486e76da6f3b58d55d289b368",
-                "aaa16c48ea444dbd70c37d35ada20a99c79a08806f6f9f04ff3d0d5f1fba3f31",
-                "cc81b4c1c34c6acfb1335dca6388ea2b75dc1d33b8005711bbd0ecdacb39b631"
+                "43d1a62ae100264afbac7de5c716668ca25ed70671c3a8b00755b107a3931569",
+                "7a2a231a8b72f5b9a8ff6fd611cdcf35d91d97003b1cf84a0d9744f567a38ca9",
+                "b3f9319b0ffc124b4968263d2fc6c27500023ecf6f4aff35d607d2a1a72a4c1d",
+                "d8030d5f04144907fd9b08ffb0f8eac5e3f72826d07b801c1f1089e2269e4c83",
+                "29019c46d8e0506dec496ebf3129700f294f358c85cfd1425d08606ffd08c904",
+                "eaaa89a735cf5df9a6e628213d604da2fbe24f92770b7f6d1bd53e4aa348f44a"
             ]
         }
     },
