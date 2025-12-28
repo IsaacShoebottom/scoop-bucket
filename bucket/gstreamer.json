@@ -1,6 +1,6 @@
 {
     "homepage": "https://gstreamer.freedesktop.org/",
-    "version": "1.26.9",
+    "version": "1.26.10",
     "description": "Open-source multimedia framework core library",
     "license": {
         "identifier": "LGPL-2.1",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://gstreamer.freedesktop.org/data/pkg/windows/1.26.9/msvc/gstreamer-1.0-msvc-x86_64-1.26.9.msi",
-            "hash": "ef56a1e9077c6cadcf8384369d1e435a0f3bc0d5a26594773256cffe79f40ecb"
+            "url": "https://gstreamer.freedesktop.org/data/pkg/windows/1.26.10/msvc/gstreamer-1.0-msvc-x86_64-1.26.10.msi",
+            "hash": "a863bf3faa49e9f33bd3cc42967b473482d4dc98655ed95cba1ac59f26fb0cfb"
         },
         "32bit": {
-            "url": "https://gstreamer.freedesktop.org/data/pkg/windows/1.26.9/msvc/gstreamer-1.0-msvc-x86-1.26.9.msi",
-            "hash": "4c0369683011b2fa8a2c46d408a5e1d5e086bc7c9830a0dd517c874944041083"
+            "url": "https://gstreamer.freedesktop.org/data/pkg/windows/1.26.10/msvc/gstreamer-1.0-msvc-x86-1.26.10.msi",
+            "hash": "6d71d8506b0f3f7a7c8ae19bd6c18a66427045e03597a48fc477ac09d17c6032"
         }
     },
     "bin": [
