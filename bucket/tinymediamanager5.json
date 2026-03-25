@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://archive.tinymediamanager.org/v5.2.10/tinyMediaManager-5.2.10-windows-amd64.zip"
+                "url": "https://archive.tinymediamanager.org/v$version/tinyMediaManager-$version-windows-amd64.zip"
             }
         },
         "hash": {
