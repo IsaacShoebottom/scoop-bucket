@@ -12,10 +12,7 @@
             "hash": "635421bed1934e029b41d3e853fc7da12cf6f21356cae99b249b7db5ece4a499"
         }
     },
-    "pre_install": [
-        "if (!(Test-Path \"$dir\\Plugins\")) { New-Item \"$dir\\Plugins\" -Type directory | Out-Null }",
-        "if (!(Test-Path \"$dir\\settings.xml\")) { New-Item \"$dir\\settings.xml\" -Type file | Out-Null }"
-    ],
+    "extract_dir": "tinyMediaManager",
     "persist": [
         "logs",
         "data",
