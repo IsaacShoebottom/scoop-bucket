@@ -12,7 +12,7 @@
     },
     "bin": "LECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/refs/heads/master/docs/index.md",
         "regex": "LECmd.*(\\d+\\.\\d+\\.\\d+\\.\\d+).*Parse lnk files"
     },
     "autoupdate": {
