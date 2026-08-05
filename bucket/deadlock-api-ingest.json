@@ -19,6 +19,7 @@
     "checkver": {
         "github": "https://github.com/deadlock-api/deadlock-api-ingest"
     },
+    "post_install": "Rename-Item \"$dir\\deadlock-api-ingest-windows-latest.exe\" 'deadlock-api-ingest.exe'",
     "autoupdate": {
         "architecture": {
             "64bit": {
