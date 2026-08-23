@@ -1,0 +1,22 @@
+{
+    "##": "No autoupdate because of relase number inconsistency",
+    "version": "3.3.0",
+    "description": "Mate Engine is a desktop companion application",
+    "homepage": "https://github.com/shinyflvre/Mate-Engine",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://raw.githubusercontent.com/shinyflvre/Mate-Engine/refs/heads/main/LICENSE.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shinyflvre/Mate-Engine/releases/download/Public-Release-X3.3.0/Public.Release.X3.3.0-HOTFIX-1.zip",
+            "hash": "5b5990aaca7367c4725008a6b44d0a7a668c527d907fb72744a3b02b6fe16e66"
+        }
+    },
+    "shortcuts": [
+        [
+            "MateEngineX.exe",
+            "Mate Engine"
+        ]
+    ]
+}
