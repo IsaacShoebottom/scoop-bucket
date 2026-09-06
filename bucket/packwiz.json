@@ -1,12 +1,12 @@
 {
-    "version": "9a2ca2e1a7a1ce2e93d93705f330a1976de6a92e",
+    "version": "ef87d964f8cbd52b3b13ea42453ef322290e2b9e",
     "description": "packwiz is a tool for creating and managing modpacks for Minecraft",
     "homepage": "https://packwiz.infra.link/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://nightly.link/packwiz/packwiz/workflows/go/main/Windows%2064-bit.zip",
-            "hash": "7627f2fb4c2ffdbf2d8076cdf666ef36227d6ffbee3605e2ba54e055cf3fad18"
+            "hash": "c59cd1ab7b8fb6a09cd00cc9becbca5467731ca2da37c14e8166cfe360fcb31e"
         }
     },
     "bin": "packwiz.exe",
