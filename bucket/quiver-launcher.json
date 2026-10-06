@@ -1,0 +1,37 @@
+{
+    "version": "3.4.5",
+    "description": "A modern launcher for downloading, installing, and running apps from GitHub and GitLab releases, with a personal library, community catalog subscriptions, and mod management support.",
+    "homepage": "https://github.com/tgeorgiadis/quiver-launcher",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tgeorgiadis/quiver-launcher/releases/download/v3.4.5/QuiverLauncher-win-Portable.zip",
+            "hash": "8214d2812a4495b76d9f6680810b4a559fa9035260b1ede8b92e90d6628b75c8"
+        }
+    },
+    "persist": [
+        "apps.json",
+        "settings.json",
+        "announcement.json",
+        "Apps",
+        "Cache",
+        "Backups"
+    ],
+    "bin": "QuiverLauncher.exe",
+    "shortcuts": [
+        [
+            "QuiverLauncher.exe",
+            "Quiver Launcher"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/tgeorgiadis/quiver-launcher"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tgeorgiadis/quiver-launcher/releases/download/v$version/QuiverLauncher-win-Portable.zip"
+            }
+        }
+    }
+}
