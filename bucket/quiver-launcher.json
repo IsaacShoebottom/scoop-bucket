@@ -9,6 +9,17 @@
             "hash": "8214d2812a4495b76d9f6680810b4a559fa9035260b1ede8b92e90d6628b75c8"
         }
     },
+    "pre_install": [
+        "# Scoop's persist step creates a FOLDER for any persisted path that doesn't already",
+        "# exist as a file in the extracted app, which crashes Quiver Launcher on first run.",
+        "# Stub these out as empty files first so persist_data treats them as files.",
+        "foreach ($f in @('apps.json', 'settings.json', 'announcement.json')) {",
+        "    $p = \"$dir\\$f\"",
+        "    if (!(Test-Path $p)) {",
+        "        '{}' | Out-File -FilePath $p -Encoding utf8 -NoNewline",
+        "    }",
+        "}"
+    ],
     "persist": [
         "apps.json",
         "settings.json",
