@@ -1,13 +1,13 @@
 {
-    "version": "0.14.0",
+    "version": "0.15.1",
     "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust: layers, masks, adjustment layers, type, vectors, brushes and real PSD files.",
     "homepage": "https://getartcraft.com/apps/photocraft",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/storytold/photocraft/releases/download/v0.14.0/photocraft-0.14.0-windows-x64-portable.zip",
-            "hash": "5b814c15034ddc68d35da837aef0cec18c90e9325f7682f516dfc331d64e9ab0",
-            "extract_dir": "photocraft-0.14.0-windows-x64-portable"
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-windows-x64-portable.zip",
+            "hash": "f41bc0fc1c6d40377251bfc4a2ecd60014d1d9aca07e5101608e5e90f5ac1fd2",
+            "extract_dir": "photocraft-0.15.1-windows-x64-portable"
         }
     },
     "bin": "photocraft-cli.exe",
