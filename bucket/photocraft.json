@@ -6,8 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-windows-x64-portable.zip",
-            "hash": "93b4e90a0ba74cdbf61ce36e227128ed78f5a0e43f814aa71563b1bf46e8b6a4",
-            "extract_dir": "photocraft-0.21.0-windows-x64-portable"
+            "hash": "93b4e90a0ba74cdbf61ce36e227128ed78f5a0e43f814aa71563b1bf46e8b6a4"
         }
     },
     "bin": "photocraft-cli.exe",
